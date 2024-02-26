@@ -1,0 +1,30 @@
+# EY Challenge 2024 by BSGRPZ
+
+## Description
+
+**TBD**
+
+## Prerequisites
+
+- Poetry, refer to their [installation guide](https://python-poetry.org/docs/#installing-with-the-official-installer)
+- Python 3.10
+
+## Installation
+It is assumed you are running a Linux based OS
+
+### Virtual environment
+The virtual environment and the dependencies are handled by Poetry
+
+```bash
+poetry install
+```
+
+### Dataset Setup
+
+To download the necessary files for the dataset, run the following command:
+
+```bash
+python3 project_setup.py
+```
+
+This will download the required files into the data directory.

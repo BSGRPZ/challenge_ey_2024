@@ -1,0 +1,9 @@
+mandatory:
+  - 'https://challenge.ey.com/api/v1/storage/admin-files/Pre_Event_San_Juan.tif'
+  - 'https://challenge.ey.com/api/v1/storage/admin-files/Post_Event_San_Juan.tif'
+optional:
+  - >-
+    https://challenge.ey.com/api/v1/storage/admin-files/027282564879278492-65c1f5242482662856c6d3ee-Buildins%20Footprint%20ROI.zip
+test:
+  - >-
+    https://challenge.ey.com/api/v1/storage/admin-files/12474072035075401-659be3ae659493c75b35b1ac-challenge_1_submission_images.zip

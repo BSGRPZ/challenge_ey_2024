@@ -1,0 +1,21 @@
+[tool.poetry]
+package-mode = false
+name = "challenge-ey-2024"
+version = "0.1.0"
+description = ""
+authors = ["V. Dang", "P-L. Nohet", "G. Tran"]
+license = "GPL-3.0-or-later"
+readme = "README"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tqdm = "^4.66.2"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "*"
+requests = "*"
+pyyaml = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
