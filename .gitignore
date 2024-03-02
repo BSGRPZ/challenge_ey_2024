@@ -2,6 +2,9 @@
 data/*
 !data/links.yaml
 
+# Poetry
+poetry.lock
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
