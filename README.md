@@ -38,7 +38,7 @@ sudo apt install libgdal-dev
 Install the GDAL Python package while matching the version number of the GDAL library
 
 ```bash
-poetry add gdal==$(gdal-config --version)
+poetry run pip install gdal==$(gdal-config --version)
 ```
 
 ### Dataset setup
@@ -46,5 +46,5 @@ poetry add gdal==$(gdal-config --version)
 To download the necessary files for the dataset into the data directory
 
 ```bash
-python3 project_setup.py
+poetry run python3 project_setup.py
 ```
